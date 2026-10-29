@@ -23,7 +23,7 @@ These screenshots show the main interface:
 
 | Explore Ideas | Workshop and Community |
 | --- | --- |
-| ![Build.exe Explore Ideas page](https://image.thum.io/get/width/1200/crop/800/https://buildexe.netlify.app/#explore) | ![Build.exe workshop and community page](https://image.thum.io/get/width/1200/crop/800/https://buildexe.netlify.app/#community) |
+| ![Build.exe Explore Ideas page](https://image.thum.io/get/width/1200/crop/800/https://buildexe.netlify.app/#explore) | ![Build.exe workshop and community page](https://image.thum.io/get/width/1200/crop/800/https://buildexe.netlify.app/#campus) |
 
 [Visit the live website](https://buildexe.netlify.app)
 
