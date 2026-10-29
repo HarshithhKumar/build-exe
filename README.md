@@ -18,11 +18,11 @@ The goal is simple: make it easier for students to move from browsing ideas to c
 These screenshots show the main interface:
 
 | Home | Project Match |
-| --- | --- |
+| -- | -- |
 | ![Build.exe home page](https://image.thum.io/get/width/1200/crop/800/https://buildexe.netlify.app/) | ![Build.exe Project Match quiz](https://image.thum.io/get/width/1200/crop/800/https://buildexe.netlify.app/#match) |
 
 | Explore Ideas | Workshop and Community |
-| --- | --- |
+| -- | -- |
 | ![Build.exe Explore Ideas page](https://image.thum.io/get/width/1200/crop/800/https://buildexe.netlify.app/#explore) | ![Build.exe workshop and community page](https://image.thum.io/get/width/1200/crop/800/https://buildexe.netlify.app/#campus) |
 
 [Visit the live website](https://buildexe.netlify.app)
@@ -40,8 +40,8 @@ Build.exe is intentionally a small static website rather than a full-stack appli
 
 ```text
 build-exe/
-├── index.html  # Page structure, styles, and browser-side interactions
-└── README.md   # Project overview and documentation
+├─ index.html  # Page structure, styles, and browser-side interactions
+└─ README.md   # Project overview and documentation
 ```
 
 ### Simple front-end architecture
