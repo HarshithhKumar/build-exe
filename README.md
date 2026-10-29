@@ -1,70 +1,92 @@
 # Build.exe
 
-**Ideas in. Projects out.**
+**Ideas in. Projects out.**  
+A small, student-friendly project discovery website.
 
-Build.exe is an independent, student-facing website for discovering a first AI project idea. Students can explore a small project library, answer a short quiz for a personalized starting point, and share a workshop invitation with a friend.
+<p align="center">
+  <a href="https://buildexe.netlify.app"><strong>Open the live website →</strong></a>
+</p>
 
-This is a personal front-end project by Harshit Kumar. It is not an official NxtWave product, workshop deliverable, or company assignment. The site mentions NxtWave's **“Build Your First AI Project in 60 Minutes”** workshop as an optional next step; workshop registration details have not been supplied.
+## About the project
 
-## What you can do
+Build.exe is a personal, just-for-fun front-end project created by **Harshith Kumar**. It is an interactive website concept for students who want to explore beginner-friendly AI and software project ideas.
 
-- Browse project ideas for AI apps, machine learning, and automation.
-- Filter the project library by category.
-- Take a three-question quiz about interests, experience, and goals.
-- Get a project suggestion with a beginner-friendly explanation and a first-hour plan.
-- Generate a demo referral code and copy an invitation message.
-- Follow the workshop call to action, which remains unconfigured until an official URL is provided.
-- Use the responsive navigation on desktop and mobile.
+The goal is simple: make it easier for students to move from browsing ideas to choosing something they might enjoy building. This is an interface prototype and learning project—not a production service, company product, or officially affiliated platform.
 
-## Run locally
+## Website preview
 
-No build step, package installation, backend, or API key is required.
+These screenshots show the main interface:
 
-1. Clone or download this repository.
-2. Open a terminal in the project folder.
-3. Start a local static file server:
+| Home | Project Match |
+| --- | --- |
+| ![Build.exe home page](screenshots/home.jpg) | ![Build.exe Project Match quiz](screenshots/project-match.jpg) |
 
-   ```bash
-   python -m http.server 8000
-   ```
+| Explore Ideas | Workshop and Community |
+| --- | --- |
+| ![Build.exe Explore Ideas page](screenshots/explore-ideas.jpg) | ![Build.exe workshop and community page](screenshots/workshop-community.jpg) |
 
-4. Visit [http://localhost:8000](http://localhost:8000).
+[Visit the live website](https://buildexe.netlify.app)
 
-You can also open `index.html` directly in a modern browser. A local server is recommended for consistent browser behavior.
+## What you can explore
 
-## Project structure
+- **Home:** An introduction to the project and its “Less scrolling. More building.” idea.
+- **Project Match:** A short interactive quiz that suggests a starting project based on a student's interests and experience.
+- **Explore Ideas:** A browsable collection of example project ideas, with category filters.
+- **Workshop & Community:** A concept section for sharing the next steps and inviting friends.
+
+## How it is built
+
+Build.exe is intentionally a small static website rather than a full-stack application.
 
 ```text
 build-exe/
-├── index.html   # Complete website: markup, styles, and client-side interactions
-└── README.md    # Project overview, architecture, and local run instructions
+├── index.html                 # Page structure, styles, and browser-side interactions
+├── README.md                  # Project overview and documentation
+└── screenshots/
+    ├── home.jpg               # Home page preview
+    ├── project-match.jpg      # Project Match preview
+    ├── explore-ideas.jpg      # Explore Ideas preview
+    └── workshop-community.jpg # Workshop and Community preview
 ```
 
-## Front-end architecture
+### Simple front-end architecture
 
-The site is intentionally a small, single-file static application:
+- **Structure:** HTML provides the page content and interface sections.
+- **Styling:** CSS handles the visual design, responsive layout, typography, colours, and cards.
+- **Interactions:** Vanilla JavaScript powers the quiz, recommendations, navigation, category filters, and demo sharing interactions.
+- **Content:** Example project ideas and interface data are included in the front end.
 
-- **Views:** Four sections—Home, Project Match, Explore Ideas, and Workshop & Community—are switched client-side using hash-based navigation.
-- **Presentation:** Inline CSS defines the responsive layout, dark charcoal palette, coral/lime accents, lavender highlights, typography, and artwork.
-- **Interactions:** Inline JavaScript handles quiz state and recommendations, category filtering, navigation/history, referral sharing, and workshop-link validation.
-- **Data:** Project suggestions and example project cards are local static content. Quiz answers are held in page memory; there is no server or account system.
+The interface is designed to be easy to inspect and experiment with, without a complicated setup.
 
-This keeps the project easy to run and inspect while making its front-end-only scope clear.
+## What is—and isn't—implemented
 
-## Configuration and demo limitations
+This is a **front-end-only prototype made for fun and practice**. It demonstrates how the experience could look and feel, but it is not a complete functional product.
 
-- To configure registration, set `WORKSHOP_REGISTRATION_URL` near the top of the inline script in `index.html` to the official HTTP or HTTPS registration URL. It is intentionally blank until one is supplied.
-- Referral codes and invitation actions are prototype sharing features. They do not register or track students.
-- The site has no backend, database, authentication, payment flow, API keys, or live analytics. It does not claim that registrations or referrals have been saved.
-- Workshop details and availability should be confirmed with the organizer before sharing.
+- There is no backend, database, account system, or authentication.
+- The website does not collect or save student registrations.
+- Demo referral codes do not provide real referral attribution or analytics.
+- The workshop area is informational UI; it is not a live registration system.
+- There are no production analytics, email automations, or server-side workflows.
 
-## Technology
+Please treat the interactions as a demonstration of the concept, not as a promise of a live service.
+
+## Live demo
+
+**Website:** https://buildexe.netlify.app
+
+The deployed site is a static front-end demo. The source code for the interface is in `index.html`.
+
+## Built with
 
 - HTML
 - CSS
 - Vanilla JavaScript
-- Optional Google Fonts connection; system font fallbacks are included
+- Netlify for static hosting
 
-## License
+## Why I made it
 
-No license has been specified yet. All rights remain with the author unless a license is added.
+I wanted to make a clean, interactive place where students can discover project ideas and get a starting point without feeling overwhelmed. Build.exe is a small personal experiment in interface design, simple browser interactions, and presenting technical ideas in a student-friendly way.
+
+---
+
+Made by **Harshith Kumar** as a personal project for fun and learning.
