@@ -19,11 +19,11 @@ These screenshots show the main interface:
 
 | Home | Project Match |
 | --- | --- |
-| ![Build.exe home page](screenshots/home.jpg) | ![Build.exe Project Match quiz](screenshots/project-match.jpg) |
+| ![Build.exe home page](https://image.thum.io/get/width/1200/crop/800/https://buildexe.netlify.app/) | ![Build.exe Project Match quiz](https://image.thum.io/get/width/1200/crop/800/https://buildexe.netlify.app/#match) |
 
 | Explore Ideas | Workshop and Community |
 | --- | --- |
-| ![Build.exe Explore Ideas page](screenshots/explore-ideas.jpg) | ![Build.exe workshop and community page](screenshots/workshop-community.jpg) |
+| ![Build.exe Explore Ideas page](https://image.thum.io/get/width/1200/crop/800/https://buildexe.netlify.app/#explore) | ![Build.exe workshop and community page](https://image.thum.io/get/width/1200/crop/800/https://buildexe.netlify.app/#community) |
 
 [Visit the live website](https://buildexe.netlify.app)
 
