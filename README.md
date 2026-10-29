@@ -4,14 +4,14 @@
 A small, student-friendly project discovery website.
 
 <p align="center">
-  <a href="https://buildexe.netlify.app"><strong>Open the live website →</strong></a>
+  <a href="https://buildexe.netlify.app"><strong>Open the live website</strong></a>
 </p>
 
 ## About the project
 
 Build.exe is a personal, just-for-fun front-end project created by **Harshith Kumar**. It is an interactive website concept for students who want to explore beginner-friendly AI and software project ideas.
 
-The goal is simple: make it easier for students to move from browsing ideas to choosing something they might enjoy building. This is an interface prototype and learning project—not a production service, company product, or officially affiliated platform.
+The goal is simple: make it easier for students to move from browsing ideas to choosing something they might enjoy building. This is an interface prototype and learning project. It is not a production service, company product, or officially affiliated platform.
 
 ## Website preview
 
@@ -40,13 +40,8 @@ Build.exe is intentionally a small static website rather than a full-stack appli
 
 ```text
 build-exe/
-├── index.html                 # Page structure, styles, and browser-side interactions
-├── README.md                  # Project overview and documentation
-└── screenshots/
-    ├── home.jpg               # Home page preview
-    ├── project-match.jpg      # Project Match preview
-    ├── explore-ideas.jpg      # Explore Ideas preview
-    └── workshop-community.jpg # Workshop and Community preview
+├── index.html  # Page structure, styles, and browser-side interactions
+└── README.md   # Project overview and documentation
 ```
 
 ### Simple front-end architecture
@@ -58,7 +53,7 @@ build-exe/
 
 The interface is designed to be easy to inspect and experiment with, without a complicated setup.
 
-## What is—and isn't—implemented
+## What is implemented
 
 This is a **front-end-only prototype made for fun and practice**. It demonstrates how the experience could look and feel, but it is not a complete functional product.
 
@@ -86,7 +81,5 @@ The deployed site is a static front-end demo. The source code for the interface 
 ## Why I made it
 
 I wanted to make a clean, interactive place where students can discover project ideas and get a starting point without feeling overwhelmed. Build.exe is a small personal experiment in interface design, simple browser interactions, and presenting technical ideas in a student-friendly way.
-
----
 
 Made by **Harshith Kumar** as a personal project for fun and learning.
